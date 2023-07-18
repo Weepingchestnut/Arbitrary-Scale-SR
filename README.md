@@ -148,6 +148,12 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ### 1. Quantitative Comparison
 
+- The PSNR results in the cases of $\times 4$ and $\times 2.5$ scales and the number of parameters for arbitrary-scale super-resolution methods on the B100 dataset. The name in the brackets denotes the backbone of the implementation. The horizontal axis and the vertical axis denote the PSNR results in the case of non-integer scale $\times 2.5$ and integer scale $\times 4$, respectively, and the circle size represents the number of parameters.
+
+![](./imgs/fig_model_complexity_cmp.png)
+
+
+
 ![](./imgs/fig2.png)
 
 ![](./imgs/fig3.png)
