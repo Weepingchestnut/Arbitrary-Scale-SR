@@ -8,9 +8,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ### 1. Scale-based taxonomy
 
-The proposed scale-based taxonomy for arbitrary-scale super-resolution. 
-
-- Note that this taxonomy shows representative methods by scales, and some methods can achieve super-resolution scales that are not limited to their taxonomic scale. For instance, ArbSR can also achieve symmetric scales, and LTEW can achieve both asymmetric and symmetric scales. 
+- The proposed scale-based taxonomy for arbitrary-scale super-resolution. Note that this taxonomy shows representative methods by scales, and some methods can achieve super-resolution scales that are not limited to their taxonomic scale. For instance, ArbSR can also achieve symmetric scales, and LTEW can achieve both asymmetric and symmetric scales. 
 
 
 ![](./imgs/fig_scale_taxonomy.png)
@@ -19,13 +17,13 @@ The proposed scale-based taxonomy for arbitrary-scale super-resolution.
 
 ###  2. Upsampling-based taxonomy
 
-The proposed upsampling-based taxonomy for recent arbitrary-scale super-resolution methods. 
+- The proposed upsampling-based taxonomy for recent arbitrary-scale super-resolution methods. 
 
 ![](./imgs/fig_up_taxonomy.png)
 
 
 
-Timeline of the development of deep learning-based arbitrary-scale super-resolution methods. 
+- Timeline of the development of deep learning-based arbitrary-scale super-resolution methods. 
 
 ![](./imgs/fig_time1.jpg)
 
@@ -33,15 +31,15 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 
 #### 2.1 Interpolation Arbitrary-Scale Upsampling
 
-Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
+- Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
 
 <div  align="center">
     <img src="./imgs/fig_pre-interpolation_ASISR.png" width="50%"/>
 </div>
-
 <div  align="center">
-    <img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:20%;"/>
+    <img src="./imgs/fig_post-interpolation_ASISR.png" width="50%"/>
 </div>
+
 
 
 
@@ -57,6 +55,8 @@ Implementation based on arbitrary-scale interpolation. The " $r$ " represents an
 #### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling
 
 ##### 2.2.1 Meta Upsampling
+
+- Framework of the Meta-SR. 
 
 ![](./imgs/fig_metasr.png)
 
