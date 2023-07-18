@@ -6,7 +6,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ## Taxonomy
 
-### Scale-based taxonomy
+### 1. Scale-based taxonomy
 
 The proposed scale-based taxonomy for arbitrary-scale super-resolution. 
 
@@ -17,23 +17,27 @@ The proposed scale-based taxonomy for arbitrary-scale super-resolution.
 
 
 
-###  Upsampling-based taxonomy
+###  2. Upsampling-based taxonomy
+
+The proposed upsampling-based taxonomy for recent arbitrary-scale super-resolution methods. 
 
 ![](./imgs/fig_up_taxonomy.png)
 
 
 
-Timeline of the development of deep learning-based arbitrary-scale super-resolution methods
+Timeline of the development of deep learning-based arbitrary-scale super-resolution methods. 
 
 ![](./imgs/fig_time1.jpg)
 
 
 
-### Interpolation Arbitrary-Scale Upsampling
+#### 2.1 Interpolation Arbitrary-Scale Upsampling
 
-<img src="./imgs/fig_pre-interpolation_ASISR.png" style="zoom:30%;" />
+Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
 
-<img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:30%;" />
+<img src="./imgs/fig_pre-interpolation_ASISR.png" style="zoom:30%;"/>
+
+<img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:30%;"/>
 
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -44,9 +48,9 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 
 
 
-### Learnable Adaptive Arbitrary-Scale Upsampling
+#### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling
 
-#### Meta Upsampling
+##### 2.2.1 Meta Upsampling
 
 ![](./imgs/fig_metasr.png)
 
@@ -61,7 +65,7 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 
 
 
-#### Adaptive Upsampling
+##### 2.2.2 Adaptive Upsampling
 
 ![](./imgs/fig_arbsr.png)
 
@@ -76,7 +80,7 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 
 
 
-### Implicit Neural Representation based Arbitrary-Scale Upsampling
+#### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling
 
 ![](./imgs/fig_liif_network.png)
 
@@ -121,7 +125,7 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 
 
 
-### Other Arbitrary Scale Upsampling
+#### 2.4 Other Arbitrary Scale Upsampling
 
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
