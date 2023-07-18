@@ -4,7 +4,17 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
-## Scale-based taxonomy
+## Taxonomy
+
+### Scale-based taxonomy
+
+<center>    
+    <img src="./imgs/fig_scale_taxonomy.png">    
+    <br>    
+    <div>
+        Figure 1: The proposed scale-based taxonomy for arbitrary-scale super-resolution. Note that this taxonomy shows representative methods by scales, and some methods can achieve super-resolution scales that are not limited to their taxonomic scale. For instance, ArbSR can also achieve symmetric scales, and LTEW can achieve both asymmetric and symmetric scales.
+    </div>
+</center>
 
 
 
