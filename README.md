@@ -150,11 +150,17 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ![](./imgs/fig2.png)
 
+![](./imgs/fig3.png)
 
+![](./imgs/fig4.png)
 
+![](./imgs/fig5.png)
 
+![](./imgs/fig6.png)
 
+![](./imgs/fig7.png)
 
+![](./imgs/fig8.png)
 
 ### 2. Qualitative Comparison
 
