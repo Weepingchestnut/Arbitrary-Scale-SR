@@ -36,16 +36,16 @@ Timeline of the development of deep learning-based arbitrary-scale super-resolut
 Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
 
 <div  align="center">
-    <img src="./imgs/fig_pre-interpolation_ASISR.png" width="500" alt="图片名称" />
+    <img src="./imgs/fig_pre-interpolation_ASISR.png" width="50%"/>
 </div>
 
 
 
-![](./imgs/fig_pre-interpolation_ASISR.png =50) 
+<div  align="center">
+    <img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:50%;"/>
+</div>
 
-<img src="./imgs/fig_pre-interpolation_ASISR.png" style="zoom:30%;"/>
 
-<img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:30%;"/>
 
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
