@@ -41,8 +41,6 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 </div>
 
 
-
-
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Accurate Image Super-Resolution Using Very Deep Convolutional Networks | VDSR    | [MATLAB](https://cv.snu.ac.kr/research/VDSR/VDSR_code.zip), [PyTorch](https://github.com/Lornatang/VDSR-PyTorch) | [CVPR'2016](https://openaccess.thecvf.com/content_cvpr_2016/html/Kim_Accurate_Image_Super-Resolution_CVPR_2016_paper.html), [arXiv'2015](https://arxiv.org/abs/1511.04587) |
@@ -73,6 +71,8 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ##### 2.2.2 Adaptive Upsampling
 
+- An overview of ArbSR. 
+
 ![](./imgs/fig_arbsr.png)
 
 | Paper                                                        | Model      | Code                                                         | Published                                                    |
@@ -87,6 +87,8 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 #### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling
+
+- The overall network structure of LIIF. 
 
 ![](./imgs/fig_liif_network.png)
 
@@ -140,3 +142,26 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 | Single Image Super-Resolution with Arbitrary Magnification Based on High-Frequency Attention Network | H2A2-SR | -                                                            | [MATH'2022](https://www.mdpi.com/2227-7390/10/2/275)         |
 | Progressive Image Super-Resolution via Neural Differential Equation | NODE-SR | -                                                            | [ICASSP'2022](https://ieeexplore.ieee.org/document/9747645)  |
 
+
+
+# Performance Comparison
+
+### 1. Quantitative Comparison
+
+![](./imgs/fig2.png)
+
+
+
+
+
+
+
+### 2. Qualitative Comparison
+
+- Visual comparison for symmetric integer scale SR on benchmark datasets. Moreover, we also report the PSNR and SSIM results for each method.
+
+![](./imgs/fig_com1.png)
+
+- Visual comparison for symmetric non-integer scale SR on the B100 dataset. Moreover, we also report the PSNR and SSIM results for each method.
+
+![](./imgs/fig_com2.png)
