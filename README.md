@@ -39,10 +39,8 @@ Implementation based on arbitrary-scale interpolation. The " $r$ " represents an
     <img src="./imgs/fig_pre-interpolation_ASISR.png" width="50%"/>
 </div>
 
-
-
 <div  align="center">
-    <img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:50%;"/>
+    <img src="./imgs/fig_post-interpolation_ASISR.png" style="zoom:20%;"/>
 </div>
 
 
