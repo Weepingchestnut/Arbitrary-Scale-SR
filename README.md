@@ -6,7 +6,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ## Update
 
-- 2023.09.08: add 2 new methods (DIIF, SVAE-SR) in taxonomy INRASU. 
+- 2023.09.08: add 2 new methods ([DIIF](https://arxiv.org/abs/2306.12321), [SVAE-SR](https://arxiv.org/abs/2307.09008)) in taxonomy INRASU. 
 
 
 
@@ -35,7 +35,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
-#### 2.1 Interpolation Arbitrary-Scale Upsampling
+#### 2.1 Interpolation Arbitrary-Scale Upsampling (IASU)
 
 - Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
 
@@ -56,7 +56,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
-#### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling
+#### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling (LAASU)
 
 ##### 2.2.1 Meta Upsampling
 
@@ -88,11 +88,11 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 | Learning for Unconstrained Space-Time Video Super-Resolution | USTVSRNet  | -                                                            | [TBC'2021](https://ieeexplore.ieee.org/abstract/document/9642062?casa_token=Xc0ornusEJYAAAAA:-9lUkxtsWLp572qrXXhZuubxOZaMbYSEevQ7DG3npL_54vRycWoybF8IiOstnEJpWs2xsCxtChUC) |
 | Scale-arbitrary Invertible Image Downscaling                 | AIDN       | -                                                            | [arXiv'2022](https://arxiv.org/abs/2201.12576)               |
 | FaceFormer: Scale-aware Blind Face Restoration with Transformers | FaceFormer | -                                                            | [arXiv'2022](https://arxiv.org/abs/2207.09790)               |
-| Deep Arbitrary-Scale Image Super-Resolution via Scale-Equivariance Pursuit | EQSR       | [PyTorch](https://github.com/neuralchen/EQSR) (only repo, no code) | [CVPR'2023](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Deep_Arbitrary-Scale_Image_Super-Resolution_via_Scale-Equivariance_Pursuit_CVPR_2023_paper.html) |
+| Deep Arbitrary-Scale Image Super-Resolution via Scale-Equivariance Pursuit | EQSR       | [PyTorch](https://github.com/neuralchen/EQSR)                | [CVPR'2023](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Deep_Arbitrary-Scale_Image_Super-Resolution_via_Scale-Equivariance_Pursuit_CVPR_2023_paper.html) |
 
 
 
-#### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling
+#### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU)
 
 - The overall network structure of LIIF. 
 
@@ -142,7 +142,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
-#### 2.4 Other Arbitrary Scale Upsampling
+#### 2.4 Other Arbitrary Scale Upsampling (OASU)
 
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
