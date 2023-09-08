@@ -4,6 +4,12 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
+## Update
+
+- 2023.09.08: add 2 new methods (DIIF, SVAE-SR) in taxonomy INRASU. 
+
+
+
 ## Taxonomy
 
 ### 1. Scale-based taxonomy
