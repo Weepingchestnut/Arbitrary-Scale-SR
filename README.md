@@ -7,6 +7,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 ## Update
 
 - 2023.09.08: add 2 new methods ([DIIF](https://arxiv.org/abs/2306.12321), [SVAE-SR](https://arxiv.org/abs/2307.09008)) in taxonomy INRASU. 
+- **2023.09.14: Our paper "*Arbitrary-Scale Super-Resolution via Deep Learning: A Comprehensive Survey*" is accepted by Information Fusion.** 
 
 
 
