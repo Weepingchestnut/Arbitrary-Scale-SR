@@ -6,8 +6,8 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ## Update
 
-- 2023.09.28: add 1 new methods ([McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html)) in taxonomy INRASU. 
-- 2023.09.08: add 2 new methods ([DIIF](https://arxiv.org/abs/2306.12321), [SVAE-SR](https://arxiv.org/abs/2307.09008)) in taxonomy INRASU. 
+- 2023.09.28: add 1 new methods [McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) (ICCV'2023) in taxonomy INRASU. 
+- 2023.09.08: add 2 new methods [DIIF](https://arxiv.org/abs/2306.12321) (arXiv'2023) and [SVAE-SR](https://arxiv.org/abs/2307.09008) (arXiv'2023) in taxonomy INRASU. 
 - **2023.09.14: Our paper "*Arbitrary-Scale Super-Resolution via Deep Learning: A Comprehensive Survey*" is accepted by Information Fusion.** 
 
 
