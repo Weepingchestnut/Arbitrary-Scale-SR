@@ -6,7 +6,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ## Update
 
-- 2023.09.28: add 1 new methods [McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) (ICCV'2023) in taxonomy INRASU. 
+- 2023.09.28: add 3 new methods [McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) (ICCV'2023), [CuNeRF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_CuNeRF_Cube-Based_Neural_Radiance_Field_for_Zero-Shot_Medical_Image_Arbitrary-Scale_ICCV_2023_paper.html) (ICCV'2023) and [MoTIF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_MoTIF_Learning_Motion_Trajectories_with_Local_Implicit_Neural_Functions_for_ICCV_2023_paper.html) (ICCV'2023) in taxonomy INRASU. 
 - 2023.09.08: add 2 new methods [DIIF](https://arxiv.org/abs/2306.12321) (arXiv'2023) and [SVAE-SR](https://arxiv.org/abs/2307.09008) (arXiv'2023) in taxonomy INRASU. 
 - **2023.09.14: Our paper "*Arbitrary-Scale Super-Resolution via Deep Learning: A Comprehensive Survey*" is accepted by Information Fusion.** 
 
@@ -142,6 +142,8 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 | Dynamic Implicit Image Function for Efficient Arbitrary-Scale Image Representation | DIIF     | [Code](https://github.com/HeZongyao/DIIF) (only repo, no code) | [arXiv'2023](https://arxiv.org/abs/2306.12321)               |
 | Soft-IntroVAE for Continuous Latent space Image Super-Resolution | SVAE-SR  | -                                                            | [arXiv'2023](https://arxiv.org/abs/2307.09008)               |
 | Rethinking Multi-Contrast MRI Super-Resolution: Rectangle-Window Cross-Attention Transformer and Arbitrary-Scale Upsampling | McASSR   | [Code](https://github.com/GuangYuanKK/McASSR) (only repo, no code) | [ICCV'2023](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) |
+| CuNeRF: Cube-Based Neural Radiance Field for Zero-Shot Medical Image Arbitrary-Scale Super Resolution | CuNeRF   | [Code](https://github.com/NarcissusEx/CuNeRF) (only repo, no code) | [ICCV'2023](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_CuNeRF_Cube-Based_Neural_Radiance_Field_for_Zero-Shot_Medical_Image_Arbitrary-Scale_ICCV_2023_paper.html) |
+| MoTIF: Learning Motion Trajectories with Local Implicit Neural Functions for Continuous Space-Time Video Super-Resolution | MoTIF    | [PyTorch](https://github.com/sichun233746/MoTIF)             | [ICCV'2023](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_MoTIF_Learning_Motion_Trajectories_with_Local_Implicit_Neural_Functions_for_ICCV_2023_paper.html) |
 
 
 
