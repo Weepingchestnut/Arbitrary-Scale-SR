@@ -1,11 +1,35 @@
 # This repo is built for survey paper: Arbitrary-Scale Super-Resolution via Deep Learning: A Comprehensive Survey
 
-Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) methods
+Paper: https://www.sciencedirect.com/science/article/pii/S1566253523003317
+
+## Abstract
+
+Super-resolution (SR) is an essential class of low-level vision tasks, which aims to improve the resolution of images or videos in computer vision. In recent years, significant progress has been made in image and video super-resolution techniques based on deep learning. Nevertheless, most of the methods only consider SR with a few integer scale factors, which limits the application of the SR techniques to real-world problems. Recently, the methods to achieve arbitrary-scale super-resolution via a single model have attracted much attention. However, there is no work to thoroughly analyze the arbitrary-scale methods based on deep learning. In this work, we present a comprehensive and systematic review of 45 existing deep learning-based methods for arbitrary-scale image and video SR. We first classify the existing SR methods according to the resolved scale factors. Furthermore, we propose an in-depth taxonomy for state-of-the-art methods based on the core problem of how to achieve arbitrary-scale super-resolution, i.e., how to perform arbitrary-scale upsampling. Moreover, the performance of existing arbitrary-scale SR methods is compared, and their advantages and limitations are analyzed. We also provide some guidance for the selection of these methods in different real-world applications. Finally, we briefly discuss the future directions of arbitrary-scale super-resolution, which shows some inspirations for the progress of subsequent works on arbitrary-scale image and video super-resolution tasks.
+
+
+
+**🌏 Citations**
+
+If our survey helps your research or work, please cite it.<br>
+
+The following is a BibTeX reference.
+
+```latex
+@article{liu2023arbitrary,
+  title={Arbitrary-scale super-resolution via deep learning: A comprehensive survey},
+  author={Liu, Hongying and Li, Zekun and Shang, Fanhua and Liu, Yuanyuan and Wan, Liang and Feng, Wei and Timofte, Radu},
+  journal={Information Fusion},
+  pages={102015},
+  year={2023},
+  publisher={Elsevier}
+}
+```
 
 
 
 ## Update
 
+- 2023.10.15: add 1 new method [learnable interpolation](https://www.ijcai.org/proceedings/2023/63) (IJCAI'2023) in taxonomy LAASU.
 - 2023.09.28: add 3 new methods [McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) (ICCV'2023), [CuNeRF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_CuNeRF_Cube-Based_Neural_Radiance_Field_for_Zero-Shot_Medical_Image_Arbitrary-Scale_ICCV_2023_paper.html) (ICCV'2023) and [MoTIF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_MoTIF_Learning_Motion_Trajectories_with_Local_Implicit_Neural_Functions_for_ICCV_2023_paper.html) (ICCV'2023) in taxonomy INRASU. 
 - 2023.09.08: add 2 new methods [DIIF](https://arxiv.org/abs/2306.12321) (arXiv'2023) and [SVAE-SR](https://arxiv.org/abs/2307.09008) (arXiv'2023) in taxonomy INRASU. 
 - **2023.09.14: Our paper "*Arbitrary-Scale Super-Resolution via Deep Learning: A Comprehensive Survey*" is accepted by Information Fusion.** 
@@ -13,6 +37,12 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 ## Taxonomy
+
+### Single-scale v.s. Mutil-scale v.s. Arbitrary-scale model
+
+![](./imgs/model_vs.png)
+
+
 
 ### 1. Scale-based taxonomy
 
@@ -83,14 +113,15 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 ![](./imgs/fig_arbsr.png)
 
-| Paper                                                        | Model      | Code                                                         | Published                                                    |
-| ------------------------------------------------------------ | ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Learning A Single Network for Scale-Arbitrary Super-Resolution | ArbSR      | [PyTorch](https://github.com/The-Learning-And-Vision-Atelier-LAVA/ArbSR) | [ICCV'2021](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Learning_a_Single_Network_for_Scale-Arbitrary_Super-Resolution_ICCV_2021_paper.html) |
-| Bilateral Upsampling Network for Single Image Super-Resolution With Arbitrary Scaling Factors | BiSR       | [PyTorch](https://github.com/Merle314/BiSR)                  | [TIP'2021](https://ieeexplore.ieee.org/document/9403904)     |
-| Learning for Unconstrained Space-Time Video Super-Resolution | USTVSRNet  | -                                                            | [TBC'2021](https://ieeexplore.ieee.org/abstract/document/9642062?casa_token=Xc0ornusEJYAAAAA:-9lUkxtsWLp572qrXXhZuubxOZaMbYSEevQ7DG3npL_54vRycWoybF8IiOstnEJpWs2xsCxtChUC) |
-| Scale-arbitrary Invertible Image Downscaling                 | AIDN       | -                                                            | [arXiv'2022](https://arxiv.org/abs/2201.12576)               |
-| FaceFormer: Scale-aware Blind Face Restoration with Transformers | FaceFormer | -                                                            | [arXiv'2022](https://arxiv.org/abs/2207.09790)               |
-| Deep Arbitrary-Scale Image Super-Resolution via Scale-Equivariance Pursuit | EQSR       | [PyTorch](https://github.com/neuralchen/EQSR)                | [CVPR'2023](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Deep_Arbitrary-Scale_Image_Super-Resolution_via_Scale-Equivariance_Pursuit_CVPR_2023_paper.html) |
+| Paper                                                        | Model                   | Code                                                         | Published                                                    |
+| ------------------------------------------------------------ | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Learning A Single Network for Scale-Arbitrary Super-Resolution | ArbSR                   | [PyTorch](https://github.com/The-Learning-And-Vision-Atelier-LAVA/ArbSR) | [ICCV'2021](https://openaccess.thecvf.com/content/ICCV2021/html/Wang_Learning_a_Single_Network_for_Scale-Arbitrary_Super-Resolution_ICCV_2021_paper.html) |
+| Bilateral Upsampling Network for Single Image Super-Resolution With Arbitrary Scaling Factors | BiSR                    | [PyTorch](https://github.com/Merle314/BiSR)                  | [TIP'2021](https://ieeexplore.ieee.org/document/9403904)     |
+| Learning for Unconstrained Space-Time Video Super-Resolution | USTVSRNet               | -                                                            | [TBC'2021](https://ieeexplore.ieee.org/abstract/document/9642062?casa_token=Xc0ornusEJYAAAAA:-9lUkxtsWLp572qrXXhZuubxOZaMbYSEevQ7DG3npL_54vRycWoybF8IiOstnEJpWs2xsCxtChUC) |
+| Scale-arbitrary Invertible Image Downscaling                 | AIDN                    | -                                                            | [arXiv'2022](https://arxiv.org/abs/2201.12576)               |
+| FaceFormer: Scale-aware Blind Face Restoration with Transformers | FaceFormer              | -                                                            | [arXiv'2022](https://arxiv.org/abs/2207.09790)               |
+| Deep Arbitrary-Scale Image Super-Resolution via Scale-Equivariance Pursuit | EQSR                    | [PyTorch](https://github.com/neuralchen/EQSR)                | [CVPR'2023](https://openaccess.thecvf.com/content/CVPR2023/html/Wang_Deep_Arbitrary-Scale_Image_Super-Resolution_via_Scale-Equivariance_Pursuit_CVPR_2023_paper.html) |
+| A Novel Learnable Interpolation Approach for Scale-Arbitrary Image Super-Resolution | Learnable Interpolation | -                                                            | [IJCAI'2023](https://www.ijcai.org/proceedings/2023/63)      |
 
 
 
@@ -158,7 +189,7 @@ Arbitrary-scale image super-resolution (ISR) and video super-resolution (VSR) me
 
 
 
-# Performance Comparison
+## Performance Comparison
 
 ### 1. Quantitative Comparison
 
