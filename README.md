@@ -29,6 +29,7 @@ The following is a BibTeX reference.
 
 ## Update
 
+- 2023.11.22: add 1 new method [DuDoINet](https://dl.acm.org/doi/10.1145/3581783.3612230) (ACM MM'2023) in taxonomy INRASU. 
 - 2023.10.21: add 2 new methods [U-LIIF](https://ieeexplore.ieee.org/abstract/document/10222673) (ICIP'2023) and [Dual-ArbNet](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_27) (MICCAI'2023) in taxonomy INRASU. 
 - 2023.10.15: add 1 new method [learnable interpolation](https://www.ijcai.org/proceedings/2023/63) (IJCAI'2023) in taxonomy LAASU.
 - 2023.09.28: add 3 new methods [McASSR](https://openaccess.thecvf.com/content/ICCV2023/html/Li_Rethinking_Multi-Contrast_MRI_Super-Resolution_Rectangle-Window_Cross-Attention_Transformer_and_Arbitrary-Scale_Upsampling_ICCV_2023_paper.html) (ICCV'2023), [CuNeRF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_CuNeRF_Cube-Based_Neural_Radiance_Field_for_Zero-Shot_Medical_Image_Arbitrary-Scale_ICCV_2023_paper.html) (ICCV'2023) and [MoTIF](https://openaccess.thecvf.com/content/ICCV2023/html/Chen_MoTIF_Learning_Motion_Trajectories_with_Local_Implicit_Neural_Functions_for_ICCV_2023_paper.html) (ICCV'2023) in taxonomy INRASU. 
@@ -178,6 +179,7 @@ The following is a BibTeX reference.
 | Soft-IntroVAE for Continuous Latent space Image Super-Resolution | SVAESR      | -                                                            | [ICIP'2023](https://ieeexplore.ieee.org/abstract/document/10223122) |
 | Uncertainty Aware Implicit Image Function for Arbitrary-Scale Super-Resolution | U-LIIF      | -                                                            | [ICIP'2023](https://ieeexplore.ieee.org/abstract/document/10222673) |
 | Dual Arbitrary Scale Super-Resolution for Multi-Contrast MRI | Dual-ArbNet | [PyTorch](https://github.com/jmzhang79/Dual-ArbNet)          | [MICCAI'2023](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_27) |
+| DuDoINet: Dual-Domain Implicit Network for Multi-Modality MR Image Arbitrary-scale Super-Resolution | DuDoINet    | -                                                            | [ACM MM'2023](https://dl.acm.org/doi/10.1145/3581783.3612230) |
 
 
 
