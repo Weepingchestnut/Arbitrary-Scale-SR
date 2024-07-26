@@ -29,7 +29,7 @@ The following is a BibTeX reference.
 
 ## Update
 
-- 2024.07.26: add 2 new methods [LMF](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) (CVPR'2024) and [COZ](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) (CVPR'2024) in taxonomy ***[INRASU](###2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU))***.
+- 2024.07.26: add 2 new methods [LMF](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) (CVPR'2024) and [COZ](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) (CVPR'2024) in taxonomy ***[INRASU](#id_inrasu)***.
 - 2024.07.25: add 2 new methods [SAVSR](https://ojs.aaai.org/index.php/AAAI/article/view/28114) (AAAI'2024) and [DCGU](https://ojs.aaai.org/index.php/AAAI/article/view/28003) (AAAI'2024) in in taxonomy ***[LAASU](###2.2.2 Adaptive Upsampling)***
 - 2023.12.03: add 5 new methods [MoEISR](https://arxiv.org/abs/2311.12077) (arXiv'2023), [Thera](https://arxiv.org/abs/2311.17643) (arXiv'2023), [Diff-SR](https://arxiv.org/abs/2306.00714) (arXiv'2023) and [FFEINR](https://arxiv.org/abs/2308.12508) (ChinaVis'2023) in taxonomy *INRASU*, [SG-SR](https://www.sciencedirect.com/science/article/pii/S0893608023005695) (NN'2024) in taxonomy *LAASU*.
 - 2023.11.22: add 1 new method [DuDoINet](https://dl.acm.org/doi/10.1145/3581783.3612230) (ACM MM'2023) in taxonomy *INRASU*. 
@@ -134,7 +134,7 @@ The following is a BibTeX reference.
 
 
 
-### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU)
+### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU)<span id='id_inrasu'>
 
 - The overall network structure of LIIF. 
 
