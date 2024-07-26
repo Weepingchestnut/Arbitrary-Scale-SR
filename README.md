@@ -29,8 +29,8 @@ The following is a BibTeX reference.
 
 ## Update
 
-- 2024.07.26: add 2 new methods [LMF](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) (CVPR'2024) and [COZ](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) (CVPR'2024) in taxonomy ***INRASU***.
-- 2024.07.25: add 2 new methods [SAVSR](#savsr) (AAAI'2024) and [DCGU](https://ojs.aaai.org/index.php/AAAI/article/view/28003) (AAAI'2024) in in taxonomy ***LAASU***
+- 2024.07.26: add 2 new methods [LMF](#lmf) (CVPR'2024) and [COZ](#coz) (CVPR'2024) in taxonomy ***INRASU***.
+- 2024.07.25: add 2 new methods [SAVSR](#savsr) (AAAI'2024) and [DCGU](#dcgu) (AAAI'2024) in in taxonomy ***LAASU***
 - 2023.12.03: add 5 new methods [MoEISR](https://arxiv.org/abs/2311.12077) (arXiv'2023), [Thera](https://arxiv.org/abs/2311.17643) (arXiv'2023), [Diff-SR](https://arxiv.org/abs/2306.00714) (arXiv'2023) and [FFEINR](https://arxiv.org/abs/2308.12508) (ChinaVis'2023) in taxonomy *INRASU*, [SG-SR](https://www.sciencedirect.com/science/article/pii/S0893608023005695) (NN'2024) in taxonomy *LAASU*.
 - 2023.11.22: add 1 new method [DuDoINet](https://dl.acm.org/doi/10.1145/3581783.3612230) (ACM MM'2023) in taxonomy *INRASU*. 
 - 2023.10.21: add 2 new methods [U-LIIF](https://ieeexplore.ieee.org/abstract/document/10222673) (ICIP'2023) and [Dual-ArbNet](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_27) (MICCAI'2023) in taxonomy *INRASU*. 
@@ -130,7 +130,7 @@ The following is a BibTeX reference.
 | A Novel Learnable Interpolation Approach for Scale-Arbitrary Image Super-Resolution | Learnable Interpolation | -                                                            | [IJCAI'2023](https://www.ijcai.org/proceedings/2023/63)      |
 | An efficient multi-scale learning method for image super-resolution networks | SG-SR                   | -                                                            | [NN'2024](https://www.sciencedirect.com/science/article/pii/S0893608023005695) |
 | <span id='savsr'>SAVSR: Arbitrary-Scale Video Super-Resolution via a Learned Scale-Adaptive Network (**Arbitrary-Scale VSR**) | SAVSR                   | [PyTorch](https://github.com/Weepingchestnut/SAVSR)          | [AAAI'2024](https://ojs.aaai.org/index.php/AAAI/article/view/28114) |
-| Arbitrary-Scale Video Super-resolution Guided by Dynamic Context (**Arbitrary-Scale VSR**) | DCGU                    | -                                                            | [AAAI'2024](https://ojs.aaai.org/index.php/AAAI/article/view/28003) |
+| <span id='dcgu'>Arbitrary-Scale Video Super-resolution Guided by Dynamic Context (**Arbitrary-Scale VSR**) | DCGU                    | -                                                            | [AAAI'2024](https://ojs.aaai.org/index.php/AAAI/article/view/28003) |
 
 
 
@@ -191,8 +191,8 @@ The following is a BibTeX reference.
 | Efficient Model Agnostic Approach for Implicit Neural Representation Based Arbitrary-Scale Image Super-Resolution | MoEISR      | -                                                            | [arXiv'2023](https://arxiv.org/abs/2311.12077)               |
 | Neural Fields with Thermal Activations for Arbitrary-Scale Super-Resolution | Thera       | -                                                            | [arXiv'2023](https://arxiv.org/abs/2311.17643)               |
 | FFEINR: Flow Feature-Enhanced Implicit Neural Representation for Spatio-temporal Super-Resolution | FFEINR      | -                                                            | ChinaVis'2023, [arXiv'2023](https://arxiv.org/abs/2308.12508) |
-| Latent Modulated Function for Computational Optimal Continuous Image Representation | LMF         | [PyTorch](https://github.com/HeZongyao/LMF)                  | [CVPR‘2024](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) |
-| Continuous Optical Zooming: A Benchmark for Arbitrary-Scale Image Super-Resolution in Real World | COZ         | [PyTorch](https://github.com/pf0607/COZ)                     | [CVPR'2024](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) |
+| <span id='lmf'>Latent Modulated Function for Computational Optimal Continuous Image Representation | LMF         | [PyTorch](https://github.com/HeZongyao/LMF)                  | [CVPR‘2024](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) |
+| <span id='coz'>Continuous Optical Zooming: A Benchmark for Arbitrary-Scale Image Super-Resolution in Real World | COZ         | [PyTorch](https://github.com/pf0607/COZ)                     | [CVPR'2024](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) |
 
 
 
