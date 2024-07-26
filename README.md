@@ -2,7 +2,7 @@
 
 Paper: https://www.sciencedirect.com/science/article/pii/S1566253523003317
 
-## Abstract
+# Abstract
 
 Super-resolution (SR) is an essential class of low-level vision tasks, which aims to improve the resolution of images or videos in computer vision. In recent years, significant progress has been made in image and video super-resolution techniques based on deep learning. Nevertheless, most of the methods only consider SR with a few integer scale factors, which limits the application of the SR techniques to real-world problems. Recently, the methods to achieve arbitrary-scale super-resolution via a single model have attracted much attention. However, there is no work to thoroughly analyze the arbitrary-scale methods based on deep learning. In this work, we present a comprehensive and systematic review of 45 existing deep learning-based methods for arbitrary-scale image and video SR. We first classify the existing SR methods according to the resolved scale factors. Furthermore, we propose an in-depth taxonomy for state-of-the-art methods based on the core problem of how to achieve arbitrary-scale super-resolution, i.e., how to perform arbitrary-scale upsampling. Moreover, the performance of existing arbitrary-scale SR methods is compared, and their advantages and limitations are analyzed. We also provide some guidance for the selection of these methods in different real-world applications. Finally, we briefly discuss the future directions of arbitrary-scale super-resolution, which shows some inspirations for the progress of subsequent works on arbitrary-scale image and video super-resolution tasks.
 
@@ -29,8 +29,8 @@ The following is a BibTeX reference.
 
 ## Update
 
-- 2024.07.26: add 2 new methods [LMF](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) (CVPR'2024) and [COZ](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) (CVPR'2024) in taxonomy ***INRASU***.
-- 2024.07.25: add 2 new methods [SAVSR](https://ojs.aaai.org/index.php/AAAI/article/view/28114) (AAAI'2024) and [DCGU](https://ojs.aaai.org/index.php/AAAI/article/view/28003) (AAAI'2024) in in taxonomy ***LAASU***
+- 2024.07.26: add 2 new methods [LMF](https://openaccess.thecvf.com/content/CVPR2024/html/He_Latent_Modulated_Function_for_Computational_Optimal_Continuous_Image_Representation_CVPR_2024_paper.html) (CVPR'2024) and [COZ](https://openaccess.thecvf.com/content/CVPR2024/html/Fu_Continuous_Optical_Zooming_A_Benchmark_for_Arbitrary-Scale_Image_Super-Resolution_in_CVPR_2024_paper.html) (CVPR'2024) in taxonomy ***[INRASU](###2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU))***.
+- 2024.07.25: add 2 new methods [SAVSR](https://ojs.aaai.org/index.php/AAAI/article/view/28114) (AAAI'2024) and [DCGU](https://ojs.aaai.org/index.php/AAAI/article/view/28003) (AAAI'2024) in in taxonomy ***[LAASU](###2.2.2 Adaptive Upsampling)***
 - 2023.12.03: add 5 new methods [MoEISR](https://arxiv.org/abs/2311.12077) (arXiv'2023), [Thera](https://arxiv.org/abs/2311.17643) (arXiv'2023), [Diff-SR](https://arxiv.org/abs/2306.00714) (arXiv'2023) and [FFEINR](https://arxiv.org/abs/2308.12508) (ChinaVis'2023) in taxonomy *INRASU*, [SG-SR](https://www.sciencedirect.com/science/article/pii/S0893608023005695) (NN'2024) in taxonomy *LAASU*.
 - 2023.11.22: add 1 new method [DuDoINet](https://dl.acm.org/doi/10.1145/3581783.3612230) (ACM MM'2023) in taxonomy *INRASU*. 
 - 2023.10.21: add 2 new methods [U-LIIF](https://ieeexplore.ieee.org/abstract/document/10222673) (ICIP'2023) and [Dual-ArbNet](https://link.springer.com/chapter/10.1007/978-3-031-43999-5_27) (MICCAI'2023) in taxonomy *INRASU*. 
@@ -41,15 +41,15 @@ The following is a BibTeX reference.
 
 
 
-## Taxonomy
+# Taxonomy
 
-### Single-scale v.s. Mutil-scale v.s. Arbitrary-scale model
+**Single-scale v.s. Mutil-scale v.s. Arbitrary-scale model**
 
 ![](./imgs/model_vs.png)
 
 
 
-### 1. Scale-based taxonomy
+## 1. Scale-based taxonomy
 
 - The proposed scale-based taxonomy for arbitrary-scale super-resolution. Note that this taxonomy shows representative methods by scales, and some methods can achieve super-resolution scales that are not limited to their taxonomic scale. For instance, ArbSR can also achieve symmetric scales, and LTEW can achieve both asymmetric and symmetric scales. 
 
@@ -58,7 +58,7 @@ The following is a BibTeX reference.
 
 
 
-###  2. Upsampling-based taxonomy
+##  2. Upsampling-based taxonomy
 
 - The proposed upsampling-based taxonomy for recent arbitrary-scale super-resolution methods. 
 
@@ -72,7 +72,7 @@ The following is a BibTeX reference.
 
 
 
-#### 2.1 Interpolation Arbitrary-Scale Upsampling (IASU)
+### 2.1 Interpolation Arbitrary-Scale Upsampling (IASU)
 
 - Implementation based on arbitrary-scale interpolation. The " $r$ " represents an arbitrary upscaling scale. The “FEM” stands for feature extraction module.
 
@@ -93,9 +93,9 @@ The following is a BibTeX reference.
 
 
 
-#### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling (LAASU)
+### 2.2 Learnable Adaptive Arbitrary-Scale Upsampling (LAASU)
 
-##### 2.2.1 Meta Upsampling
+#### 2.2.1 Meta Upsampling
 
 - Framework of the Meta-SR. 
 
@@ -112,7 +112,7 @@ The following is a BibTeX reference.
 
 
 
-##### 2.2.2 Adaptive Upsampling
+#### 2.2.2 Adaptive Upsampling
 
 - An overview of ArbSR. 
 
@@ -134,7 +134,7 @@ The following is a BibTeX reference.
 
 
 
-#### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU)
+### 2.3 Implicit Neural Representation based Arbitrary-Scale Upsampling (INRASU)
 
 - The overall network structure of LIIF. 
 
@@ -196,7 +196,7 @@ The following is a BibTeX reference.
 
 
 
-#### 2.4 Other Arbitrary Scale Upsampling (OASU)
+### 2.4 Other Arbitrary Scale Upsampling (OASU)
 
 | Paper                                                        | Model   | Code                                                         | Published                                                    |
 | ------------------------------------------------------------ | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -207,9 +207,9 @@ The following is a BibTeX reference.
 
 
 
-## Performance Comparison
+# Performance Comparison
 
-### 1. Quantitative Comparison
+## 1. Quantitative Comparison
 
 - The PSNR results in the cases of $\times 4$ and $\times 2.5$ scales and the number of parameters for arbitrary-scale super-resolution methods on the B100 dataset. The name in the brackets denotes the backbone of the implementation. The horizontal axis and the vertical axis denote the PSNR results in the case of non-integer scale $\times 2.5$ and integer scale $\times 4$, respectively, and the circle size represents the number of parameters.
 
@@ -231,7 +231,7 @@ The following is a BibTeX reference.
 
 ![](./imgs/fig8.png)
 
-### 2. Qualitative Comparison
+## 2. Qualitative Comparison
 
 - Visual comparison for symmetric integer scale SR on benchmark datasets. Moreover, we also report the PSNR and SSIM results for each method.
 
